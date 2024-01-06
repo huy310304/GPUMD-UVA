@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A elmgroup
+#SBATCH -A elmgroup_standard
 #SBATCH --ntasks=1
 #SBATCH --time=20:00:00
 #SBATCH --output=outputfile
