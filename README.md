@@ -1,6 +1,6 @@
 # GPUMD_UVA
 
-## [MgNiO Potential]()
+## [MgNiO Potential](./MgNiO/)
 
 ## Link for reference:
 - [Main Document Page](https://gpumd.org/index.html)
