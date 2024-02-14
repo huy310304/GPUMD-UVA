@@ -1,6 +1,5 @@
 # GPUMD_UVA
 
-## Project Description
 ### Research Focus
 The project focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
 
