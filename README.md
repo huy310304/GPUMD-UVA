@@ -1,4 +1,4 @@
-# GPUMD-UVA
+# GPUMD-UVA (In-progress)
 
 ## Project Description
 
