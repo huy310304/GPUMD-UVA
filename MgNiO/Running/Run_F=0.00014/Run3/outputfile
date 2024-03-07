@@ -1,0 +1,166 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                     Version 3.7                             *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA A100-SXM4-40GB
+    Compute capability:      8.0
+    Amount of global memory: 39.3939 GB
+    Number of SMs:           108
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 8000.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Use orthogonal box.
+Box lengths are
+    Lx =     4.2241998216e+01 A
+    Ly =     4.2241998216e+01 A
+    Lz =     4.2241998216e+01 A
+Do not specify initial velocities here.
+Have 1 grouping method(s).
+There are 10 groups of atoms in grouping method 0.
+    400 atoms in group 0.
+    800 atoms in group 1.
+    800 atoms in group 2.
+    800 atoms in group 3.
+    800 atoms in group 4.
+    800 atoms in group 5.
+    800 atoms in group 6.
+    800 atoms in group 7.
+    800 atoms in group 8.
+    1200 atoms in group 9.
+There are 3 atom types.
+    2000 atoms of type 0.
+    2000 atoms of type 1.
+    4000 atoms of type 2.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP3 potential with 3 atom types.
+    type 0 (Mg with Z = 12).
+    type 1 (Ni with Z = 28).
+    type 2 (O with Z = 8).
+    radial cutoff = 8 A.
+    angular cutoff = 4 A.
+    MN_radial = 242.
+    MN_angular = 29.
+    enlarged MN_radial = 303.
+    enlarged MN_angular = 37.
+    n_max_radial = 10.
+    n_max_angular = 4.
+    basis_size_radial = 8.
+    basis_size_angular = 8.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 36-30-1.
+    number of neural network parameters = 1141.
+    number of descriptor parameters = 1296.
+    total number of parameters = 2437
+Initialized velocities with T = 300 K.
+Use NVT ensemble for this run.
+    choose the Nose-Hoover chain method.
+    initial temperature is 300 K.
+    final temperature is 300 K.
+    tau_T is 100 time_step.
+Time step for this run is 1 fs.
+Dump thermo every 1000 steps.
+Run 1000000 steps.
+    100000 steps completed.
+    200000 steps completed.
+    300000 steps completed.
+    400000 steps completed.
+    500000 steps completed.
+    600000 steps completed.
+    700000 steps completed.
+    800000 steps completed.
+    900000 steps completed.
+    1000000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 4415.79 second.
+Speed of this run = 1.81168e+06 atom*step/second.
+---------------------------------------------------------------
+
+Use NVT ensemble for this run.
+    choose the Nose-Hoover chain method.
+    initial temperature is 300 K.
+    final temperature is 300 K.
+    tau_T is 100 time_step.
+Compute thermal conductivity using the HNEMD method.
+    output_interval = 1000
+    fe_x = 0 /A
+    fe_y = 0.00014 /A
+    fe_z = 0 /A
+Compute SHC.
+    sampling interval for SHC is 2.
+    number of correlation data is 250.
+    transport direction is y.
+    num_omega for SHC is 1000.
+    max_omega for SHC is 400.
+    grouping method is 0 and group ID is 5.
+Run 10000000 steps.
+    1000000 steps completed.
+    2000000 steps completed.
+    3000000 steps completed.
+    4000000 steps completed.
+    5000000 steps completed.
+    6000000 steps completed.
+    7000000 steps completed.
+    8000000 steps completed.
+    9000000 steps completed.
+    10000000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 44687.2 second.
+Speed of this run = 1.79022e+06 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 49102.990000 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+
