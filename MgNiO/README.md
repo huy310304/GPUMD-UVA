@@ -1,6 +1,6 @@
 # Results and Discussion 
 
-In this study, various simulations were conducted with over 10 force parameters, yielding a substantial number of output files. Utilizing Python, the data was graphed and the thermal conductivity was analyzed to identify the consistent range for `k(w)` across different force values. Each force value underwent 10 simulations, and the results were averaged to determine the corresponding `k(w)` value.
+In this research, various simulations were conducted with over 10 force parameters, yielding a substantial number of output files. Utilizing Python, the data was graphed and the thermal conductivity was analyzed to identify the consistent range for `k(w)` across different force values. Each force value underwent 10 simulations, and the results were averaged to determine the corresponding `k(w)` value.
 
 The primary objective was to ascertain the appropriate force parameters that result in a consistent range of `k(w)` values while ensuring stability in the simulations.
 
