@@ -1,5 +1,5 @@
 # MgNiO Alloy Simulation
-## [See Results Here](../Results)
+## [See Results Here](../)
 
 This describes the process for conducting non-equilibrium simulations of MgNiO alloy under various external forces on UVA Rivanna. 
 
