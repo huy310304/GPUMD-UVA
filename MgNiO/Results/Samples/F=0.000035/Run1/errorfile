@@ -1,3 +1,0 @@
-Can only run on A100. In Slurm scripts:
-#SBATCH -p gpu
-#SBATCH --gres=gpu:a100:1
