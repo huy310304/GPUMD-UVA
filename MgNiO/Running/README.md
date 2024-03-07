@@ -1,6 +1,7 @@
-# MgNiO Alloy Simulation 
+# MgNiO Alloy Simulation
+## [See Results Here](../Results)
 
-This describes the process for conducting non-equilibrium simulations of MgNiO alloy under various external forces on UVA Rivanna.
+This describes the process for conducting non-equilibrium simulations of MgNiO alloy under various external forces on UVA Rivanna. 
 
 ## Preparation
 
@@ -23,3 +24,4 @@ This describes the process for conducting non-equilibrium simulations of MgNiO a
 ## Sample Simulations
 
 Included is a directory for F-value = 0.00014 as a reference.
+
