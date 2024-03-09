@@ -1,5 +1,7 @@
 # GPUMD-UVA (In-progress)
 
+## 📝 [A brief summarization poster](https://drive.google.com/file/d/1gUmejQSglso3Zh1EY1O8N_IgMgXjIA_r/view?usp=sharing)
+
 ## Project Description
 
 ### Research Focus
