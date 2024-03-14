@@ -21,8 +21,8 @@ The project focuses on investigating the thermal properties of high-entropy allo
 - Generated over 10 graphs for each simulation to visualize thermal conductivity and spectral heat currents over the production time.
 
 ## Simulation Results and Discussions
-- [MgNiO Potential](./MgNiO/)
-- [High Entropy Oxide Potential](./HEO/)
+- ### [MgNiO Potential](./MgNiO/)
+- ### [High Entropy Oxide Potential](./HEO/)
 
 ## Additional Resources
 - [GPUMD Document Page](https://gpumd.org/index.html)
