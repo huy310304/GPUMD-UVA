@@ -85,9 +85,12 @@ With the best-fit line in place, optimized forces for 500K and 700K were calcula
 These results confirmed the hypothesis that tailored force values enhance the consistency and reliability of the simulations.
 
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
-Finally, the tailored force values were used to re-evaluate the thermal conductivity at each temperature, providing a clear picture of how MgNiO's thermal properties are influenced by both temperature and force parameter adjustments.
+The tailored force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graph below demonstrates a more consistent trend in `k(w)` with smaller error bars, maintaining the expected decrease as `T(K)` increases.
 
 ![Comprehensive Thermal Conductivity Analysis](https://github.com/huy310304/GPUMD-UVA/assets/114793725/85be649f-e2e9-4e4b-8dc8-49c78dad723b)
 
-This detailed visualization underscores the critical nature of optimizing force parameters in computational material science to predict and understand material behaviors under different thermal conditions.
+This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions.
+
+TODO: Add more plots
+
 
