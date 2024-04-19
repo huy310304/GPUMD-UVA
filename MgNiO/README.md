@@ -91,6 +91,7 @@ The tailored force values were utilized to re-evaluate the thermal conductivity 
 
 This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions.
 
-TODO: Add more plots
+TODO: Đợi 700K .32 chạy Run4 với đợi 900K .4 chạy Run4 với Run5, plotavg, plot3D
+
 
 
