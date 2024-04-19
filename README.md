@@ -14,11 +14,12 @@ The project focuses on investigating the thermal properties of high-entropy allo
 - Linux commands were used to manage and execute simulations on the UVA Rivanna supercomputer.
 
 ### Simulation Tasks
-- Executed over 30 thermal simulations for MgNiO and HEO alloys.
-- Optimized simulations with more than 10 combinations of driving forces and runtimes for each alloy.
+- Conducted over 30 thermal simulations for MgNiO and HEO alloys.
+- Optimized simulations with various combinations of driving forces and runtimes for each alloy.
+- Repeated the process for different temperature ranges.
 
 ### Visualization and Analysis
-- Generated over 10 graphs for each simulation to visualize thermal conductivity and spectral heat currents over the production time.
+- Generated numerous graphs for each simulation to visualize thermal conductivity and spectral heat currents over the production time.
 
 ## Simulation Results and Discussions
 - ### [MgNiO Potential](./MgNiO/)
