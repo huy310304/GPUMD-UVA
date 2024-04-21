@@ -19,13 +19,14 @@ The project focuses on investigating the thermal properties of high-entropy allo
 - Repeated the process for different temperature ranges.
 
 ### Visualization and Analysis
-- Generated numerous graphs for each simulation to visualize thermal conductivity and spectral heat currents over the production time.
+- Generated numerous graphs for each simulation of different alloys at different temperature to visualize thermal conductivity and spectral heat currents over the production time.
 
 ## Simulation Results and Discussions
 - ### [MgNiO Potential](./MgNiO/)
 - ### [High Entropy Oxide Potential](./HEO/)
 
-## Additional Resources
+## References
 - [GPUMD Document Page](https://gpumd.org/index.html)
 - [NEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html)
 - [HNEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html)
+- [GPUMD Source Code](https://github.com/brucefan1983/GPUMD)
