@@ -1,6 +1,6 @@
-# Results and Discussion 
+# Results and Discussion for MgNiO thermal conductivity
 
-## [Simulation Set-Up](./Running)
+## [See Simulation Setup for MgNiO](./Running)
 
 ## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO
 
