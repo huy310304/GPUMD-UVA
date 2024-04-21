@@ -1,4 +1,4 @@
-# Results and Discussion for MgNiO thermal conductivity
+# Results and Discussion for thermal conductivity of MgNiO 
 
 ## [See Simulation Setup for MgNiO](./Running)
 
