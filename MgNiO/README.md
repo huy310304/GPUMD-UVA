@@ -1,5 +1,7 @@
 # Results and Discussion 
 
+## [Simulation Set-Up](./Running)
+
 ## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO
 
 In this research, various simulations were conducted with over 10 force parameters with an `T(K) = 300K`, yielding a substantial number of output files. Utilizing Python, the data was graphed and the thermal conductivity was analyzed to identify the consistent range for `k(w)` across different force values. Each force value underwent 10 simulations, and the results were averaged to determine the corresponding `k(w)` value.
