@@ -1,6 +1,6 @@
 # MgNiO Alloy Simulation Setup
 
-# TODO: Add in Ovito and how to find parameters in plot_diffusive.py and plot_ballistic.py and load_shc.py
+## TODO: Add in Ovito and how to find parameters in plot_diffusive.py and plot_ballistic.py and load_shc.py
 
 ## [See Results Here](../)
 
