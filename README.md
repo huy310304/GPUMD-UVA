@@ -26,7 +26,8 @@ The project focuses on investigating the thermal properties of high-entropy allo
 - ### [High Entropy Oxide Potential](./HEO/)
 
 ## References
-- [GPUMD Document Page](https://gpumd.org/index.html)
-- [NEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html)
-- [HNEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html)
-- [GPUMD Source Code](https://github.com/brucefan1983/GPUMD)
+- #### [GPUMD Document Page](https://gpumd.org/index.html)
+- #### [NEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html)
+- #### [HNEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html)
+- #### [GPUMD Source Code](https://github.com/brucefan1983/GPUMD)
+- #### [UVA Rivanna](https://www.rc.virginia.edu/userinfo/rivanna/overview/)
