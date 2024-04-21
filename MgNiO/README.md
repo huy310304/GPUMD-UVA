@@ -1,5 +1,5 @@
 # Table of Contents
-## [Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-mgnio)
+[Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-mgnio)
    - [Analysis of Small Force Values](#analysis-of-small-force-values)
    - [Analysis of Larger Force Values](#analysis-of-larger-force-values)
    - [Analysis of Even Larger Force Values](#analysis-of-even-larger-force-values)
