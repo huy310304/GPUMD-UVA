@@ -1,34 +1,35 @@
 # MgNiO Alloy Simulation Setup
 
-## TODO: Add in Ovito and how to find parameters in plot_diffusive.py and plot_ballistic.py and load_shc.py
+### TODO: Add in Ovito and how to find parameters in plot_diffusive.py and plot_ballistic.py and load_shc.py
+### TODO: Add NEMD directory
 
 ## [See Results Here](../)
 
-This describes the process for conducting Thermal Transport from NEMD and HNEMD of MgNiO alloy under various external forces on UVA Rivanna. 
+This document outlines the process for conducting Thermal Transport from Non-Equilibrium Molecular Dynamics (NEMD) and Heat-Flux Nonequilibrium Molecular Dynamics (HNEMD) simulations of MgNiO alloy under various external forces on the UVA Rivanna HPC system.
 
 ## Preparation
 
-- **Model Generation**: Generate `model.xyz` and `nep.txt` for the initial structure and settings through machine learning process, conducted by a graduate student.
+- **Model Generation**: Generate `model.xyz` and `nep.txt` for the initial structure and settings through a machine learning process, typically conducted by a graduate student.
 
 ## Execution 
 
-### NEMD Process
-The NEMD Process is run first with the [NEMD tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html)  
-The desired data for thermal conductance will then be produced in `Gc.npy` after running `plot_ballistic.py`
+The Thermal Transport NEMD Process is executed first by following the [NEMD tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html). This process produces the desired data for thermal conductance, stored in `Gc.npy` after running `plot_ballistic.py`.
 
-- [Input Files](https://gpumd.org/gpumd/input_files/)
-- [Output Files](https://gpumd.org/gpumd/output_files/)
+Subsequently, the Homogeneous NEMD (HNEMD) Process is performed by following the [HNEMD tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html).
+
+- [**Input Files**](https://gpumd.org/gpumd/input_files/)
+- [**Output Files**](https://gpumd.org/gpumd/output_files/)
 
 ## Repetition
 
-- Perform 10 runs per F-value for statistical reliability.
+- Perform 10 runs per force value (`F`) for statistical reliability.
 
 ## Analysis
 
-- **Data Extraction**: After completion, extract data from output files (`shc.out` and `kappa.out`)
-- **Graphing**: Use Python `plot_diffusive.py` to plot `k(ω)` vs. `ν(THz)`.
+- **Data Extraction**: Extract relevant data from output files (`shc.out` and `kappa.out`) after completion.
+- **Graphing**: Utilize Python script `plot_diffusive.py` to plot the spectral thermal conductivity (`k(ω)`) against frequency (`ν(THz)`).
 
 ## Sample Simulations
 
-Included is a directory for F-value = 0.00014 at T = 300K as a reference.
+A directory for `F = 0.00014` at `T = 300K` is included as a reference for comparison and analysis.
 
