@@ -1,28 +1,3 @@
-# Table of Contents
-[Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-mgnio)
-   - [Analysis of Small Force Values](#analysis-of-small-force-values)
-   - [Analysis of Larger Force Values](#analysis-of-larger-force-values)
-   - [Analysis of Even Larger Force Values](#analysis-of-even-larger-force-values)
-   - [Spectral Heat Current Analysis](#spectral-heat-current-analysis)
-   - [Conclusions for Phase 1](#conclusions-for-phase-1)
-
-## [Phase 2: Exploring Thermal Properties at Various Temperatures](#phase-2-exploring-thermal-properties-at-various-temperatures)
-   - [Hypothesized Impact of Temperature on Thermal Conductivity](#hypothesized-impact-of-temperature-on-thermal-conductivity)
-   - [Methodology for Multi-Temperature Analysis](#methodology-for-multi-temperature-analysis)
-   - [Initial Findings Using a Uniform Force Value](#initial-findings-using-a-uniform-force-value)
-   - [Optimizing Force Values for Each Temperature](#optimizing-force-values-for-each-temperature)
-   - [Establishing a Best Fit Line for Optimized Forces Across Temperatures](#establishing-a-best-fit-line-for-optimized-forces-across-temperatures)
-   - [Applying the Predicted Force Values](#applying-the-predicted-force-values)
-   - [Comprehensive Analysis of Temperature vs. Thermal Conductivity](#comprehensive-analysis-of-temperature-vs-thermal-conductivity)
-
-4. [Future Work](#future-work)
-   - [Planned Experiments and Analyses](#planned-experiments-and-analyses)
-
-5. [Appendices](#appendices)
-   - [Data Tables and Additional Graphs](#data-tables-and-additional-graphs)
-   - [Simulation Parameters and Setup Details](#simulation-parameters-and-setup-details)
-
-
 # Results and Discussion 
 
 ## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO
