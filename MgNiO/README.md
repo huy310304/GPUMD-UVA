@@ -57,10 +57,10 @@ Using F(Å-1) = 0.00014 as a baseline force value, simulations were run at five 
 #### Initial Findings Using a Uniform Force Value
 ![Temperature vs. Thermal Conductivity Plot](https://github.com/huy310304/GPUMD-UVA/assets/114793725/85900522-3d12-41fc-8fe7-82f5b774ed61)
 
-The graph above shows the results of these simulations. Despite using a consistent force value, the significant variation in \(k(w)\) suggests that each temperature may actually require a uniquely optimized force value to achieve reliable data.
+The graph above shows the results of these simulations. Despite using a consistent force value, the significant variation in `k(w)` suggests that each temperature may actually require a uniquely optimized force value to achieve reliable and consistent data.
 
 ### Optimizing Force Values for Each Temperature
-Recognizing the inconsistency in the initial data, we undertook a detailed investigation to find the optimal force values for the temperatures at the extremes of our study range, namely 100K and 900K. This approach provided foundational data points from which we could interpolate optimal values for the intermediate temperatures.
+Recognizing the inconsistency in the initial data, we undertook a detailed investigation to find the optimal force values for the temperatures at the extremes of our study range, namely 100K and 900K. This approach provided foundational data points from which we could interpolate optimal values for the intermediate temperatures using a line of best fit.
 
 #### Specific Results for 100K and 900K
 From the extensive simulations at the temperature extremes, optimized force values were determined. At T(K) = 100K, the optimized force value was found to be F(Å-1) = 0.0001, and for T(K) = 900K, it was F(Å-1) = 0.0004. These results provide key data points for understanding how force requirements change with temperature.
@@ -75,17 +75,17 @@ Observing that the optimized F-values tend to increase linearly with temperature
 ![Line of Best Fit for Optimized Forces](https://github.com/huy310304/GPUMD-UVA/assets/114793725/4d1a573e-8e7f-43e6-a8b3-25dc71be6bbd)
 
 ### Applying the Predicted Force Values
-With the best-fit line in place, optimized forces for 500K and 700K were calculated and used in further simulations.
+With the best-fit line in place, optimized forces for 500K and 700K were predicted to be 0.00024Å and 0.00032Å and used in further simulations.
 
 #### Validation Results for 500K and 700K
 | ![500K Validation](https://github.com/huy310304/GPUMD-UVA/assets/114793725/ea146a78-8286-4aee-a2a0-1ea500a5cdae) | ![700K Validation](https://github.com/huy310304/GPUMD-UVA/assets/114793725/9709d81c-5856-45d9-9230-37211b811585) |
 |:----------------------:|:----------------------:|
 | Results for `T(K) = 500K` with `F(Å-1) = 0.00024` | Results for `T(K) = 700K` with `F(Å-1) = 0.00032` |
 
-These results confirmed the hypothesis that tailored force values enhance the consistency and reliability of the simulations.
+These results confirmed the hypothesis that tailored force values enhance the consistency and reliability of the simulations, as well as the linearly relationship between the optimized force value and temperature.
 
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
-The tailored force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graph below demonstrates a more consistent trend in `k(w)` with smaller error bars, maintaining the expected decrease as `T(K)` increases.
+The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graph below demonstrates a more consistent trend in `k(w)` with smaller error bars, maintaining the expected decreasing behavior as `T(K)` increases.
 
 ![Comprehensive Thermal Conductivity Analysis](https://github.com/huy310304/GPUMD-UVA/assets/114793725/85be649f-e2e9-4e4b-8dc8-49c78dad723b)
 
