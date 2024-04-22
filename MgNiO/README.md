@@ -87,13 +87,15 @@ With the best-fit line in place, optimized forces for 500K and 700K were predict
 These results confirmed the hypothesis that tailored force values enhance the consistency and reliability of the simulations, as well as the linearly relationship between the optimized force value and temperature.
 
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
-The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graph below demonstrates a more consistent trend in `k(w)` with smaller error bars, maintaining the expected decreasing behavior as `T(K)` increases.
+The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graphs below demonstrates a more consistent trend in `k(w)` with smaller error bars using optimized F, maintaining the expected decreasing behavior as `T(K)` increases.
 
-![Comprehensive Thermal Conductivity Analysis](https://github.com/huy310304/GPUMD-UVA/assets/114793725/85be649f-e2e9-4e4b-8dc8-49c78dad723b)
+![Comprehensive Thermal Conductivity Analysis](https://github.com/huy310304/GPUMD-UVA/assets/114793725/afa55d6f-57b9-425f-ad89-da9a5e14f1e0)
+
+![3D Plot](https://github.com/huy310304/GPUMD-UVA/assets/114793725/d42dad91-0cc5-4da2-95b7-9f039048dd72)
 
 This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions.
 
-TODO: Đợi 700K .32 chạy Run4 với đợi 900K .4 chạy Run4 với Run5, plotavg, plot3D
+
 
 
 
