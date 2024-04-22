@@ -2,10 +2,8 @@
 
 ## 📝 [A brief summarization poster](https://drive.google.com/file/d/1gUmejQSglso3Zh1EY1O8N_IgMgXjIA_r/view?usp=sharing)
 
-## Project Description
-
 ### Research Focus
-The project focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
+The project, led by Professor Keivan Esfarjani, with Bikash Timalisina as the graduate student, focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
 
 ### Tools and Methods
 - Utilized the GPUMD package, Python, MATLAB, and Linux commands for simulation tasks.
