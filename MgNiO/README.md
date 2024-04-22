@@ -35,7 +35,9 @@ With Larger F(Å-1) = 0.0004 or F(Å-1) = 0.0008, the K(w) values seem to be inc
 
 The graph below illustrates how the spectral heat current (SHC), `k(ω)`, varies in response to different external force (F) values applied to our MgNiO alloy simulations. This visualization is crucial for identifying optimal F-values that balance the system's stability and response accuracy.
 
-![Spectral Heat Current vs. F-values](https://github.com/huy310304/GPUMD-UVA/assets/114793725/a7a929e8-7cc6-4ad3-9de3-e836c0865ee2)
+<p align="center">
+  <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/a7a929e8-7cc6-4ad3-9de3-e836c0865ee2" alt="Spectral Heat Current vs. F-values" width="800px">
+</p>
 
 
 ## Conclusions
@@ -57,7 +59,9 @@ As temperature increases, so does the amplitude of lattice vibrations within mat
 Using F(Å-1) = 0.00014 as a baseline force value, simulations were run at five temperatures: 100K, 300K, 500K, 700K, and 900K. This uniform approach initially helped identify the need for temperature-specific optimizations.
 
 #### Initial Findings Using a Uniform Force Value
-![Temperature vs. Thermal Conductivity Plot](https://github.com/huy310304/GPUMD-UVA/assets/114793725/85900522-3d12-41fc-8fe7-82f5b774ed61)
+<p align="center">
+  <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/85900522-3d12-41fc-8fe7-82f5b774ed61" alt="Temperature vs. Thermal Conductivity Plot" width="800px">
+</p>
 
 The graph above shows the results of these simulations. Despite using a consistent force value, the significant variation in `k(w)` suggests that each temperature may actually require a uniquely optimized force value to achieve reliable and consistent data.
 
@@ -74,7 +78,9 @@ From the extensive simulations at the temperature extremes, optimized force valu
 ### Establishing a Best Fit Line for Optimized Forces Across Temperatures
 Observing that the optimized F-values tend to increase linearly with temperature, a line of best fit was plotted to predict intermediate values, providing a strategic guide for setting force parameters at other temperatures.
 
-![Line of Best Fit for Optimized Forces](https://github.com/huy310304/GPUMD-UVA/assets/114793725/4d1a573e-8e7f-43e6-a8b3-25dc71be6bbd)
+<p align="center">
+  <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/4d1a573e-8e7f-43e6-a8b3-25dc71be6bbd" alt="Line of Best Fit for Optimized Forces" width="800px">
+</p>
 
 ### Applying the Predicted Force Values
 With the best-fit line in place, optimized forces for 500K and 700K were predicted to be 0.00024Å and 0.00032Å and used in further simulations.
@@ -89,13 +95,22 @@ These results confirmed the hypothesis that tailored force values enhance the co
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
 The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graphs below demonstrates a more consistent trend in `k(w)` with smaller error bars using optimized F, maintaining the expected decreasing behavior as `T(K)` increases.
 
-![Comprehensive Thermal Conductivity Analysis](https://github.com/huy310304/GPUMD-UVA/assets/114793725/afa55d6f-57b9-425f-ad89-da9a5e14f1e0)
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/9e3a90ed-d3e6-41ea-9333-a82542a87502" alt="Comprehensive Thermal Conductivity Analysis" width="800px">
+    </td>
+    <td>
+      <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/4f094229-8c59-431b-94bd-0fdb9abef9cd" alt="3D Plot" width="800px">
+    </td>
+  </tr>
+  <tr align="center">
+    <td>Comprehensive Thermal Conductivity Analysis</td>
+    <td>3D Plot using Optimized F</td>
+  </tr>
+</table>
 
-![3D Plot](https://github.com/huy310304/GPUMD-UVA/assets/114793725/d42dad91-0cc5-4da2-95b7-9f039048dd72)
 
-This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions.
-
-
-
+This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions. These findings offer precise insights into selecting force parameters for reliable thermal conductivity predictions in high-entropy alloys (MgNiO in this report). Future work will include the simulation of HEO and other alloys. 
 
 
