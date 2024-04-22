@@ -90,7 +90,7 @@ With the best-fit line in place, optimized forces for 500K and 700K were predict
 |:----------------------:|:----------------------:|
 | Results for `T(K) = 500K` with `F(Å-1) = 0.00024` | Results for `T(K) = 700K` with `F(Å-1) = 0.00032` |
 
-These results confirmed the hypothesis that tailored force values enhance the consistency and reliability of the simulations, as well as the linearly relationship between the optimized force value and temperature.
+These results confirmed the hypothesis that tailored force values enhance the consistency with `error bar < 2%` and reliability of the simulations, as well as the linearly relationship between the optimized force value and temperature.
 
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
 The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graphs below demonstrates a more consistent trend in `k(w)` with smaller error bars using optimized F, maintaining the expected decreasing behavior as `T(K)` increases.
@@ -111,6 +111,17 @@ The optimized force values were utilized to re-evaluate the thermal conductivity
 </table>
 
 
-This detailed visualization emphasizes the critical role of optimizing force parameters in computational material science. It enables the prediction and understanding of material behaviors under various thermal conditions. These findings offer precise insights into selecting force parameters for reliable thermal conductivity predictions in high-entropy alloys (MgNiO in this report). Future work will include the simulation of HEO and other alloys. 
+# Final Conclusion
+The comprehensive study on the thermal conductivity of MgNiO using non-equilibrium molecular dynamics simulations has provided valuable insights into the behavior of this material under varying external forces and temperatures. Through meticulous analysis and optimization, several key findings have emerged, shedding light on the complex relationship between force parameters, temperature, and thermal conductivity.  
 
+## Optimization of Force Parameters
+The investigation began with the identification of optimized force values at a fixed temperature of 300K. By conducting numerous simulations across a range of force parameters, it was determined that force values between 0.000035 and 0.0003 Å⁻¹, with an ideal operational point near 0.00014 Å⁻¹, yielded the most consistent and reliable results. These optimized force parameters provided a balance between reducing fluctuations and enhancing the consistency of thermal conductivity predictions.  
+
+## Temperature-Dependent Analysis
+Expanding the study to explore the impact of temperature on thermal conductivity revealed intriguing insights. Despite initially assuming a uniform force value, the analysis uncovered temperature-specific optimizations. By simulating temperatures ranging from 100K to 900K, it became evident that each temperature required tailored force values to achieve reliable data. The linear relationship observed between optimized force values and temperature provided a strategic guide for setting force parameters across a wide temperature range.  
+
+## Implications for Material Science
+The detailed visualization and analysis presented in this study underscore the critical role of optimizing force parameters in computational material science. By accurately predicting and understanding the thermal conductivity of materials like MgNiO, researchers can make informed decisions in designing and engineering materials for various applications. These findings not only contribute to advancing our understanding of high-entropy alloys but also provide a framework for future research in simulating complex materials and predicting their thermal properties.  
+ 
+#### In conclusion, the findings from this study offer precise insights into selecting force parameters for reliable thermal conductivity predictions in MgNiO and pave the way for further exploration in high-entropy alloys and beyond.
 
