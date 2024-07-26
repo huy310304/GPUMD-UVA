@@ -97,12 +97,12 @@ show()
 shc = load_shc(num_corr_points=250, num_omega=400)['run0']
 shc.keys()
 
-l = [42.241998216000006, 42.241998216000006, 42.241998216000006] # Change size if needed
+l = [42.241998216000006, 42.241998216000006, 42.241998216000006] # Change size if needed (open the model.xyz in ovito)
 Lx, Lz = l[0], l[2]
-Ly = 4.2241998216000006 # Change size if needed
+Ly = 4.2241998216000006 # Change size if needed (open the model.xyz in ovito)
 V = Lx * Ly * Lz
-T = 300
-Fe = 7.0e-5 # Change Force if needed
+T = 300 # Change temp if needed
+Fe = 1.4e-4 # Change Force if needed
 calc_spectral_kappa(shc, driving_force=Fe, temperature=T, volume=V)
 shc['kw'] = shc['kwi'] + shc['kwo']
 shc['K'] = shc['Ki'] + shc['Ko']
