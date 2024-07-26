@@ -5,6 +5,10 @@
 ### Research Focus
 The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the graduate student, focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
 
+### Recent Work and Updates (Summer 2024)
+- Running MD simulation with CoNiO and MgNiCuCoZnO using the J14 potential.
+- Tuning the atom's concentration in the alloys to see how much can the Thermal Conductivity be tuned. 
+
 ### Tools and Methods
 - Utilized the GPUMD package, Python, MATLAB, and Linux commands for simulation tasks.
 - GPUMD package provided efficient MD simulation capabilities.
