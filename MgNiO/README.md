@@ -7,7 +7,7 @@
   - [Analysis of Small Force Values](#analysis-of-small-force-values)
   - [Analysis of Larger Force Values](#analysis-of-larger-force-values)
   - [Analysis of Even Larger Force Values](#analysis-of-even-larger-force-values)
-  - [Analysis of Spectral Heat Current (SHC) with Varying External Forces](#analysis-of-spectral-heat-current-shc-with-varying-external-forces)
+  - [Analysis of Spectral Heat Current (SHC) with Varying External Forces](#analysis-of-spectral-heat-current-shc-kω-with-varying-external-forces)
   - [Conclusions](#conclusions)
 - [Phase 2: Exploring Thermal Properties of MgNiO at Varied Temperatures (100K - 900K)](#phase-2-exploring-thermal-properties-of-mgnio-at-varied-temperatures-100k---900k)
   - [Hypothesized Impact of Temperature on Thermal Conductivity](#hypothesized-impact-of-temperature-on-thermal-conductivity)
