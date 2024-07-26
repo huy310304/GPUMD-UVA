@@ -2,6 +2,28 @@
 
 ## [See Simulation Setup for MgNiO](./Running)
 
+# Table of Contents
+- [Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-mgnio)
+  - [Analysis of Small Force Values](#analysis-of-small-force-values)
+  - [Analysis of Larger Force Values](#analysis-of-larger-force-values)
+  - [Analysis of Even Larger Force Values](#analysis-of-even-larger-force-values)
+  - [Analysis of Spectral Heat Current (SHC) with Varying External Forces](#analysis-of-spectral-heat-current-shc-with-varying-external-forces)
+  - [Conclusions](#conclusions)
+- [Phase 2: Exploring Thermal Properties of MgNiO at Varied Temperatures (100K - 900K)](#phase-2-exploring-thermal-properties-of-mgnio-at-varied-temperatures-100k---900k)
+  - [Hypothesized Impact of Temperature on Thermal Conductivity](#hypothesized-impact-of-temperature-on-thermal-conductivity)
+  - [Methodology for Multi-Temperature Analysis](#methodology-for-multi-temperature-analysis)
+    - [Initial Findings Using a Uniform Force Value](#initial-findings-using-a-uniform-force-value)
+    - [Optimizing Force Values for Each Temperature](#optimizing-force-values-for-each-temperature)
+      - [Specific Results for 100K and 900K](#specific-results-for-100k-and-900k)
+    - [Establishing a Best Fit Line for Optimized Forces Across Temperatures](#establishing-a-best-fit-line-for-optimized-forces-across-temperatures)
+    - [Applying the Predicted Force Values](#applying-the-predicted-force-values)
+      - [Validation Results for 500K and 700K](#validation-results-for-500k-and-700k)
+    - [Comprehensive Analysis of Temperature vs. Thermal Conductivity](#comprehensive-analysis-of-temperature-vs-thermal-conductivity)
+- [Final Conclusion](#final-conclusion)
+  - [Optimization of Force Parameters](#optimization-of-force-parameters)
+  - [Temperature-Dependent Analysis](#temperature-dependent-analysis)
+  - [Implications for Material Science](#implications-for-material-science)
+    
 ## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO
 
 In this research, various simulations were conducted with over 10 force parameters with an `T(K) = 300K`, yielding a substantial number of output files. Utilizing Python, the data was graphed and the thermal conductivity was analyzed to identify the consistent range for `k(w)` across different force values. Each force value underwent 10 simulations, and the results were averaged to determine the corresponding `k(w)` value.
@@ -123,5 +145,4 @@ Expanding the study to explore the impact of temperature on thermal conductivity
 ## Implications for Material Science
 The detailed visualization and analysis presented in this study underscore the critical role of optimizing force parameters in computational material science. By accurately predicting and understanding the thermal conductivity of materials like MgNiO, researchers can make informed decisions in designing and engineering materials for various applications. These findings not only contribute to advancing our understanding of high-entropy alloys but also provide a framework for future research in simulating complex materials and predicting their thermal properties.  
  
-#### In conclusion, the findings from this study offer precise insights into selecting force parameters for reliable thermal conductivity predictions in MgNiO and pave the way for further exploration in high-entropy alloys and beyond.
-
+#### In conclusion, the findings from this study offer precise insights into selecting force parameters for reliable thermal conductivity predictions in MgNiO and pave the way for further exploration in different high-entropy alloys and beyond.
