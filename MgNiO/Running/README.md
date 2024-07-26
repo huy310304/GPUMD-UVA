@@ -4,13 +4,13 @@
 
 This document outlines the process for conducting Thermal Transport from Non-Equilibrium Molecular Dynamics (NEMD) and Heat-Flux Nonequilibrium Molecular Dynamics (HNEMD) simulations of MgNiO alloy under various external forces on the UVA Rivanna HPC system.
 
-## Preparation
+## Model and Potential Preparation
 
 - **Model Generation**: Generate `model.xyz` and `nep.txt` for the initial structure and settings through a machine learning process, typically conducted by a graduate student.
 
-## Execution 
+## Running the MD
 
-The Thermal Transport NEMD Process is executed first by following the [NEMD tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html). This process produces the desired data for thermal conductance, stored in `Gc.npy` after running `plot_ballistic.py` (see the [NEMD directory](./ballistic) 
+The Thermal Transport NEMD Process is executed first by following the [NEMD tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html). This process produces the desired data for thermal conductance, stored in `Gc.npy` after running `plot_ballistic.py` (see the [NEMD directory](./ballistic))
 
 Subsequently, the Homogeneous NEMD (HNEMD) Process is performed by following the [HNEMD tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html).
 
