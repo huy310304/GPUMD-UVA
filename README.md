@@ -16,7 +16,7 @@ The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the gra
 - Linux commands were used to manage and execute simulations on the UVA Rivanna supercomputer.
 
 ### Simulation Tasks
-- Conducted over 30 thermal simulations for MgNiO and HEO alloys.
+- Conducted over 30 thermal simulations for different HEAs.
 - Optimized simulations with various combinations of driving forces and runtimes for each alloy.
 - Repeated the process for different temperature ranges.
 
@@ -25,11 +25,15 @@ The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the gra
 
 ## Simulation Results and Discussions
 - ### [MgNiO Potential](./MgNiO/)
-- ### [High Entropy Oxide Potential](./HEO/)
+- ### [J14 Potential](./J14/)
+- ### [CoNiO Potential](./CoNiO/)
 
 ## References
+### Documents and Tutorials
 - #### [GPUMD Document Page](https://gpumd.org/index.html)
 - #### [NEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_nemd.html)
 - #### [HNEMD Running Tutorial](https://gpumd.org/tutorials/thermal_transport_hnemd.html)
 - #### [GPUMD Source Code](https://github.com/brucefan1983/GPUMD)
 - #### [UVA Rivanna](https://www.rc.virginia.edu/userinfo/rivanna/overview/)
+### Related Papers
+- #### [Charge-Induced Disorder Controls the Thermal Conductivity of Entropy-Stabilized Oxides](https://onlinelibrary.wiley.com/doi/10.1002/adma.201805004)
