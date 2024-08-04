@@ -8,7 +8,7 @@ Building on the [Thermal Conductivity work of MgNiO](../MgNiO), we applied the o
 
 | ![Spectral Thermal Conductivity at 300K](https://github.com/user-attachments/assets/27c16b02-8d8c-4ad3-beab-1d7da170d5dd) | ![Thermal Conductivity at 300K](https://github.com/user-attachments/assets/dca578d5-e0b0-4dd2-861d-cadffe1047b3) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-| **Figure 1: Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00018`** | **Figure 2: Thermal Conductivity at `300K with F(Å⁻¹) = 0.00018`** |
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00018`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00018`** |
 
 From these results, we observe that the thermal conductivities are reasonable within a small error margin, and all runs were consistent. This suggests that the optimized force parameter for MgNiO may be close to the optimized force for the J14.
 
@@ -16,15 +16,15 @@ From these results, we observe that the thermal conductivities are reasonable wi
 
 | ![Spectral Thermal Conductivity at 500K](https://github.com/user-attachments/assets/e3b2682d-dec3-487a-988e-017cbdeab7d5) | ![Thermal Conductivity at 500K](https://github.com/user-attachments/assets/d479b761-76a9-475f-8a7c-3c0bda09478a) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-| **Figure 3: Spectral Thermal Conductivity of 5 runs at `500K with F(Å⁻¹) = 0.00024`** | **Figure 4: Thermal Conductivity at `500K with F(Å⁻¹) = 0.00024`** |
+| **Spectral Thermal Conductivity of 5 runs at `500K with F(Å⁻¹) = 0.00024`** | **Thermal Conductivity at `500K with F(Å⁻¹) = 0.00024`** |
 
 | ![Spectral Thermal Conductivity at 700K](https://github.com/user-attachments/assets/22676c64-3b5e-48cc-9d83-1e89aefb19b7) | ![Thermal Conductivity at 700K](https://github.com/user-attachments/assets/9ff1e32a-ce73-477c-84ee-bf8b32428860) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-| **Figure 5: Spectral Thermal Conductivity of 5 runs at `700K with F(Å⁻¹) = 0.00032`** | **Figure 6: Thermal Conductivity at `700K with F(Å⁻¹) = 0.00032`** |
+| **Spectral Thermal Conductivity of 5 runs at `700K with F(Å⁻¹) = 0.00032`** | **Thermal Conductivity at `700K with F(Å⁻¹) = 0.00032`** |
 
 | ![Spectral Thermal Conductivity at 900K](https://github.com/user-attachments/assets/3d3d13f1-d63a-48b1-8863-57605713587d) | ![Thermal Conductivity at 900K](https://github.com/user-attachments/assets/2edf83a2-a752-4464-b7a4-2bee7d292c6c) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-| **Figure 7: Spectral Thermal Conductivity of 5 runs at `900K with F(Å⁻¹) = 0.0004`** | **Figure 8: Thermal Conductivity at `900K with F(Å⁻¹) = 0.0004`** |
+| **Spectral Thermal Conductivity of 5 runs at `900K with F(Å⁻¹) = 0.0004`** | **Thermal Conductivity at `900K with F(Å⁻¹) = 0.0004`** |
 
 All these results exhibit a high level of consistency across multiple runs, with minimal variation between individual runs as indicated by the low error bars. This consistency suggests that the optimized force parameters effectively stabilize the thermal conductivity measurements for the J14 across the tested temperature range (300K - 900K).
 
@@ -35,7 +35,7 @@ The results of the thermal conductivity across different temperatures were plott
 | ![3D Plot](https://github.com/user-attachments/assets/a17cdcd5-d5ce-468f-bca7-48dd0bb2bf41) | ![Thermal Conductivity Table](https://github.com/user-attachments/assets/c1e1330b-7421-413a-82e0-286eaa6f96be) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 
-**Figure 9: 3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
+**3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
 
 #### Analysis of Trends
 
@@ -47,7 +47,7 @@ The results of the thermal conductivity across different temperatures were plott
 
 ![Temperature vs Thermal Conductivity](https://github.com/user-attachments/assets/1dac5da3-0995-4a72-8a26-b572459b3ec0)
 
-**Figure 10: Temperature vs. Thermal Conductivity for the J14 at Varied Temperatures**
+**Temperature vs. Thermal Conductivity for the J14 at Varied Temperatures**
 
 ### Conclusion for Phase 1
 
