@@ -1,0 +1,6 @@
+Can only run on A100. In Slurm scripts:
+#SBATCH -p gpu
+#SBATCH --gres=gpu:a100:1
+terminate called after throwing an instance of 'thrust::system::system_error'
+  what():  exclusive_scan failed to synchronize: cudaErrorIllegalAddress: an illegal memory access was encountered
+/var/spool/slurm/slurmd/job62740262/slurm_script: line 12: 742829 Aborted                 (core dumped) gpumd < run.in > outputfile

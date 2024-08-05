@@ -1,0 +1,178 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                    Version 3.9.1                            *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA A100-SXM4-80GB
+    Compute capability:      8.0
+    Amount of global memory: 79.1384 GB
+    Number of SMs:           108
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 8000.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Use orthogonal box.
+Box lengths are
+    Lx =     4.2735579810e+01 A
+    Ly =     4.2735579810e+01 A
+    Lz =     4.2735579810e+01 A
+Do not specify initial velocities here.
+Have 1 grouping method(s).
+There are 10 groups of atoms in grouping method 0.
+    1008 atoms in group 0.
+    800 atoms in group 1.
+    800 atoms in group 2.
+    800 atoms in group 3.
+    800 atoms in group 4.
+    800 atoms in group 5.
+    800 atoms in group 6.
+    800 atoms in group 7.
+    800 atoms in group 8.
+    592 atoms in group 9.
+There are 6 atom types.
+    800 atoms of type 0.
+    800 atoms of type 1.
+    800 atoms of type 2.
+    800 atoms of type 3.
+    800 atoms of type 4.
+    4000 atoms of type 5.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP3 potential with 6 atom types.
+    type 0 (Mg with Z = 12).
+    type 1 (Ni with Z = 28).
+    type 2 (Zn with Z = 30).
+    type 3 (Co with Z = 27).
+    type 4 (Cu with Z = 29).
+    type 5 (O with Z = 8).
+    radial cutoff = 8.4 A.
+    angular cutoff = 3.9 A.
+    MN_radial = 260.
+    MN_angular = 28.
+    enlarged MN_radial = 325.
+    enlarged MN_angular = 35.
+    n_max_radial = 10.
+    n_max_angular = 9.
+    basis_size_radial = 12.
+    basis_size_angular = 12.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 61-60-1.
+    number of neural network parameters = 3781.
+    number of descriptor parameters = 9828.
+    total number of parameters = 13609.
+Initialized velocities with T = 900 K.
+Use NVT ensemble for this run.
+    choose the Berendsen method.
+    initial temperature is 900 K.
+    final temperature is 900 K.
+    tau_T is 100 time_step.
+Group 0 in grouping method 0 will be fixed.
+Time step for this run is 1 fs.
+Dump thermo every 1000 steps.
+Run 100000 steps.
+    10000 steps completed.
+    20000 steps completed.
+    30000 steps completed.
+    40000 steps completed.
+    50000 steps completed.
+    60000 steps completed.
+    70000 steps completed.
+    80000 steps completed.
+    90000 steps completed.
+    100000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 574.47 second.
+Speed of this run = 1.39259e+06 atom*step/second.
+---------------------------------------------------------------
+
+Integrate with heating and cooling for this run.
+    choose the Langevin method.
+    average temperature is 900 K.
+    tau_T is 100 time_step.
+    delta_T is 10 K.
+    T_hot is 910 K.
+    T_cold is 890 K.
+    heat source is group 1 in grouping method 0.
+    heat sink is group 9 in grouping method 0.
+Group 0 in grouping method 0 will be fixed.
+Compute space and/or time average of:
+    temperature
+    using grouping method 0.
+    with sampling interval 10.
+    and output interval 100.
+Compute SHC.
+    sampling interval for SHC is 2.
+    number of correlation data is 250.
+    transport direction is y.
+    num_omega for SHC is 1000.
+    max_omega for SHC is 400.
+    grouping method is 0 and group ID is 5.
+Run 1000000 steps.
+    100000 steps completed.
+    200000 steps completed.
+    300000 steps completed.
+    400000 steps completed.
+    500000 steps completed.
+    600000 steps completed.
+    700000 steps completed.
+    800000 steps completed.
+    900000 steps completed.
+    1000000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 5867.08 second.
+Speed of this run = 1.36354e+06 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 6441.585114 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+

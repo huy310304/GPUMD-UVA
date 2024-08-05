@@ -1,0 +1,7 @@
+potential   ./nep.txt
+velocity    900
+
+ensemble    npt_ber 900 900 100 0 0 0 53.4059 53.4059 53.4059 2000
+time_step   1
+dump_thermo 10
+run         20000

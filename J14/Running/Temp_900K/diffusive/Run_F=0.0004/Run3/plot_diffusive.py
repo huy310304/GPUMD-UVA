@@ -6,7 +6,6 @@ from gpyumd.load import load_shc, load_kappa
 from gpyumd.math import running_ave
 from gpyumd.calc import calc_spectral_kappa
 import numpy as np
-import matplotlib.pyplot as plt
 
 aw = 2
 fs = 16
@@ -34,16 +33,20 @@ kappa['kxi_ra'] = running_ave(kappa['kxi'],t)
 kappa['kxo_ra'] = running_ave(kappa['kxo'],t)
 kappa['kz_ra'] = running_ave(kappa['kz'],t)
 
+## Save Kappa data
+np.save("kappa_3_file", kappa)
+
+
 # Plot thermal conductivity
 
 figure(figsize=(12,10))
 subplot(2,2,1)
 set_fig_properties([gca()])
-plot(t, kappa['kyi'],color='C7',alpha=0.5)
+#plot(t, kappa['kyi'],color='C7',alpha=0.5)
 plot(t, kappa['kyi_ra'], linewidth=2)
 #xlim([0, 10])
 #gca().set_xticks(range(0,11,2))
-ylim([-300, 300])
+ylim([-12, 12])
 #gca().set_yticks(range(-2000,4001,1000))
 xlabel('time (ns)')
 ylabel(r'$\kappa_{in}$ W/m/K')
@@ -51,11 +54,11 @@ title('(a)')
 
 subplot(2,2,2)
 set_fig_properties([gca()])
-plot(t, kappa['kyo'],color='C7',alpha=0.5)
+#plot(t, kappa['kyo'],color='C7',alpha=0.5)
 plot(t, kappa['kyo_ra'], linewidth=2, color='C3')
 #xlim([0, 10])
 #gca().set_xticks(range(0,11,2))
-ylim([-300, 300])
+ylim([-12, 12])
 #gca().set_yticks(range(0,4001,1000))
 xlabel('time (ns)')
 ylabel(r'$\kappa_{out}$ (W/m/K)')
@@ -93,28 +96,43 @@ title('(d)')
 tight_layout()
 show()
 
+
 # Plot spectral heat current results
 
-shc = load_shc(num_corr_points=250, num_omega=400)['run0'] #CHANGE NUMBERS OF POINTS HERE
+shc = load_shc(num_corr_points=250, num_omega=400)['run0']
 shc.keys()
 
-l = [42.241998216000006, 42.241998216000006, 42.241998216000006]
+l = [42.73557981, 42.73557981, 42.73557981]
 Lx, Lz = l[0], l[2]
-Ly = 4.2241998216000006
+Ly = 4.273557981
 V = Lx * Ly * Lz
-T = 300
-Fe = 7.0e-5
+
+T = 900 # Change Temp to 100K here
+Fe = 4e-4 # Change Force to 1.4e-4 here
+
 calc_spectral_kappa(shc, driving_force=Fe, temperature=T, volume=V)
 shc['kw'] = shc['kwi'] + shc['kwo']
 shc['K'] = shc['Ki'] + shc['Ko']
-Gc = np.load('../../../ballistic/Gc_400.npy') #CHANGE FILE NAME
+Gc = np.load('../../../ballistic/Run3/Gc_400.npy')
 shc.keys()
 
-lambda_i = shc_kw_avg / Gc
+
+
+
+# Save shc stuff for plotting AVG TC
+shc_nu = shc['nu']
+shc_kw = shc['kw']
+np.save("shc_nu_3_400_file", shc_nu)
+np.save("shc_kw_3_400_file", shc_kw)
+
+
+
+
+lambda_i = shc['kw']/Gc
 length = np.logspace(1,6,100)
 k_L = np.zeros_like(length)
 for i, el in enumerate(length):
-    k_L[i] = np.trapz(shc_kw_avg/(1+lambda_i/el), shc_nu_avg)
+    k_L[i] = np.trapz(shc['kw']/(1+lambda_i/el), shc['nu'])
 
 figure(figsize=(12,10))
 subplot(2,2,1)
@@ -130,18 +148,17 @@ title('(a)')
 
 subplot(2,2,2)
 set_fig_properties([gca()])
-plot(shc_nu_avg, shc_kw_avg,linewidth=3)
+plot(shc['nu'], shc['kw'],linewidth=3)
 #xlim([0, 50])
 #gca().set_xticks(range(0,51,10))
-ylim([-0.2, 1.4])
+ylim([-0.2, 1])
 #gca().set_yticks(range(0,201,50))
 ylabel(r'$\kappa$($\omega$) (W/m/K/THz)')
 xlabel(r'$\nu$ (THz)')
 title('(b)')
-
 subplot(2,2,3)
 set_fig_properties([gca()])
-plot(shc_nu_avg, lambda_i,linewidth=3)
+plot(shc['nu'], lambda_i,linewidth=3)
 #xlim([0, 50])
 #gca().set_xticks(range(0,51,10))
 #ylim([0, 6000])
@@ -162,23 +179,4 @@ title('(d)')
 
 tight_layout()
 show()
-
-
-plt.plot(shc_nu_1, shc_kw_1, label = "run1")
-plt.plot(shc_nu_2, shc_kw_2, label = "run2")
-plt.plot(shc_nu_3, shc_kw_3, label = "run3")
-plt.plot(shc_nu_4, shc_kw_4, label = "run4")
-plt.plot(shc_nu_5, shc_kw_5, label = "run5")
-plt.plot(shc_nu_6, shc_kw_6, label = "run6")
-plt.plot(shc_nu_7, shc_kw_7, label = "run7")
-plt.plot(shc_nu_8, shc_kw_8, label = "run8")
-plt.plot(shc_nu_9, shc_kw_9, label = "run9")
-plt.plot(shc_nu_10, shc_kw_10, label = "run10")
-
-plt.plot(shc_nu_avg, shc_kw_avg, label = "Avg", linewidth = 4, color = "red")
-plt.legend()
-ylabel(r'$\kappa$($\omega$) (W/m/K/THz)')
-xlabel(r'$\nu$ (THz)')
-plt.show()
-
 

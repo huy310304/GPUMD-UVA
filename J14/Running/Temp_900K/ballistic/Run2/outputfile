@@ -1,0 +1,72 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                    Version 3.9.1                            *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA A100-SXM4-80GB
+    Compute capability:      8.0
+    Amount of global memory: 79.1384 GB
+    Number of SMs:           108
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 8000.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Use orthogonal box.
+Box lengths are
+    Lx =     4.2735579810e+01 A
+    Ly =     4.2735579810e+01 A
+    Lz =     4.2735579810e+01 A
+Do not specify initial velocities here.
+Have 1 grouping method(s).
+There are 10 groups of atoms in grouping method 0.
+    1008 atoms in group 0.
+    800 atoms in group 1.
+    800 atoms in group 2.
+    800 atoms in group 3.
+    800 atoms in group 4.
+    800 atoms in group 5.
+    800 atoms in group 6.
+    800 atoms in group 7.
+    800 atoms in group 8.
+    592 atoms in group 9.
+There are 6 atom types.
+    800 atoms of type 0.
+    800 atoms of type 1.
+    800 atoms of type 2.
+    800 atoms of type 3.
+    800 atoms of type 4.
+    4000 atoms of type 5.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.

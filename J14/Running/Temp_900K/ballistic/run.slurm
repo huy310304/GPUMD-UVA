@@ -7,6 +7,6 @@
 #SBATCH -p gpu
 #SBATCH --gres=gpu:a100:1
  
-module load nvhpc/23.7
+module load nvhpc/24.1
 module load gpumd
 gpumd < run.in > outputfile
