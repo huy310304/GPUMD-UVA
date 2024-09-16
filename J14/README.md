@@ -2,7 +2,7 @@
 
 ## Phase 1: Exploring Thermal Properties of the J14 at Varied Temperatures (100K - 900K)
 
-Building on the [Thermal Conductivity work of MgNiO](../MgNiO), we applied the optimized force parameters from MgNiO to a new alloy, referred to as J14. We obtained results for each temperature, using the optimized F-values from MgNiO as an educated starting point. However, due to the structural differences of the J14 alloy, adjustments may be necessary. Details of the approach for optimizing the forces across different temperatures can be found in the `Establishing a Best Fit Line for Optimized Forces Across Temperatures` section in the [MgNiO README file](https://github.com/huy310304/GPUMD-UVA/tree/main/MgNiO#establishing-a-best-fit-line-for-optimized-forces-across-temperatures).
+Building on the [Thermal Conductivity work of MgNiO](../MgNiO), we applied the optimized force parameters from MgNiO to a new alloy, referred to as J14. We obtained results for each temperature, using the optimized F-values from MgNiO as an educated starting point. However, due to the structural differences of the J14 alloy, adjustments may be necessary. Details of the approach for optimizing the forces across different temperatures can be found in the `Establishing a Best Fit Line for Optimized Forces Across Temperatures` section in the [MgNiO README file](https://github.com/huy310304/GPUMD-UVA/tree/main/MgNiO#establishing-a-best-fit-line-for-optimized-forces-across-temperatures). After multiple running and extensive data analysis, we can find the approriate force parameters for the specific temperatures.  
 
 ### Results for 300K Using F-values of 0.00018
 
