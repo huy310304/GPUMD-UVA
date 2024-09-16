@@ -25,11 +25,11 @@ We can plot the pressure from the `thermo.out` file to compare the system before
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.0001`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.0001`** |
 
-| ![TC 300K 1e-4 Short](./images/1e-4_Short_300K_00011.png) | ![TC 300K 1e-4 Data](./images/1e-4_Short_300K_data_00011.png) |
+| ![TC 300K 1e-4 Short](./images/1.1e-4_Short_300K.png) | ![TC 300K 1e-4 Data](./images/1.1e-4_Short_300K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00011`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00011`** |
 
-| ![TC 300K 1e-4 Short](./images/1e-4_Short_300K_00012.png) | ![TC 300K 1e-4 Data](./images/1e-4_Short_300K_data_00012.png) |
+| ![TC 300K 1e-4 Short](./images/1.2e-4_Short_300K.png) | ![TC 300K 1e-4 Data](./images/1.2e-4_Short_300K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
 
