@@ -25,14 +25,18 @@ We can plot the pressure from the `thermo.out` file to compare the system before
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.0001`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.0001`** |
 
-| ![TC 300K 1e-4 Short](./images/1.1e-4_Short_300K.png) | ![TC 300K 1e-4 Data](./images/1.1e-4_Short_300K_data.png) |
+| ![TC 300K 1.1e-4 Short](./images/1.1e-4_Short_300K.png) | ![TC 300K 1.1e-4 Data](./images/1.1e-4_Short_300K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00011`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00011`** |
 
-| ![TC 300K 1e-4 Short](./images/1.2e-4_Short_300K.png) | ![TC 300K 1e-4 Data](./images/1.2e-4_Short_300K_data.png) |
+| ![TC 300K 1.2e-4 Short](./images/1.2e-4_Short_300K.png) | ![TC 300K 1.2e-4 Data](./images/1.2e-4_Short_300K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
 
 These short runs (1M steps) are intended to minimize simulation time while exploring force parameters for consistent behavior. Once we identify consistent force parameters, we can extend the simulations to 10M steps for more accurate results.
 
 These force parameters are likely correct, as the results exhibit a high level of consistency across multiple runs, with minimal variation between individual runs. This consistency, indicated by the low error bars, suggests that the optimized force parameters effectively stabilize the thermal conductivity measurements for Co₀.₂₅Ni₀.₇₅O at 300K.
+
+After getting a sense of what the force parameter should be using small runs, we can continue doing longer runs with 10M steps to further see the correct and detailed behavior.
+
+### Long Runs (10M steps) at 300K
