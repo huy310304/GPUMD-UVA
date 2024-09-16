@@ -37,6 +37,27 @@ These short runs (1M steps) are intended to minimize simulation time while explo
 
 These force parameters are likely correct, as the results exhibit a high level of consistency across multiple runs, with minimal variation between individual runs. This consistency, indicated by the low error bars, suggests that the optimized force parameters effectively stabilize the thermal conductivity measurements for Co₀.₂₅Ni₀.₇₅O at 300K.
 
-After getting a sense of what the force parameter should be using small runs, we can continue doing longer runs with 10M steps to further see the correct and detailed behavior.
 
 ### Long Runs (10M steps) at 300K
+
+After getting a sense of what the force parameter should be using small runs, we can continue doing longer runs with 10M steps to further see the correct and detailed behavior.
+
+| ![TC 300K 8e-5 Long](./images/8e-5_Long_300K.png) | ![TC 300K 8e-5 Data](./images/8e-5_Long_300K_data.png) |
+|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00008`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00008`** |
+
+| ![TC 300K 9e-5 Long](./images/9e-5_Long_300K.png) | ![TC 300K 9e-5 Data](./images/9e-5_Long_300K_data.png) |
+|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00009`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00009`** |
+
+| ![TC 300K 1e-4 Long](./images/1e-4_Long_300K.png) | ![TC 300K 1e-4 Data](./images/1e-4_Long_300K_data.png) |
+|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.0001`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.0001`** |
+
+| ![TC 300K 1.1e-4 Long](./images/1.1e-4_Long_300K.png) | ![TC 300K 1.1e-4 Data](./images/1.1e-4_Long_300K_data.png) |
+|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00011`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00011`** |
+
+| ![TC 300K 1.2e-4 Long](./images/1.2e-4_Long_300K.png) | ![TC 300K 1.2e-4 Data](./images/1.2e-4_Long_300K_data.png) |
+|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
