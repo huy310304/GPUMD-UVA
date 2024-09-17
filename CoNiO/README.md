@@ -61,3 +61,8 @@ After getting a sense of what the force parameter should be using small runs, we
 | ![TC 300K 1.2e-4 Long](./images/1.2e-4_Long_300K.png) | ![TC 300K 1.2e-4 Data](./images/1.2e-4_Long_300K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
+
+The optimal force parameter range for studying the thermal conductivity of Co₀.₂₅Ni₀.₇₅O at 300K is likely between 0.00008 Å⁻¹ and 0.00012 Å⁻¹, where we see both stable thermal conductivity values and efficient simulation behavior.
+
+For further use, we will use 0.00008 Å⁻¹ for reference as this demonstrate the least error and most consistency over the runs. 
+
