@@ -1,4 +1,4 @@
-₅O# Results and Discussion for thermal conductivity of Mg₀.₅Ni₀.₅O
+# Results and Discussion for thermal conductivity of Mg₀.₅Ni₀.₅O
 
 ## [See Simulation Setup for Mg₀.₅Ni₀.₅O](./Running)
 
