@@ -1,18 +1,18 @@
 # Results and Discussion for Thermal Conductivity of Co₀.₂₅Ni₀.₇₅O
 
-## [See Simulation Setup for MgNiO](./Running)
+## [See Simulation Setup for Mg₀.₅Ni₀.₅O](./Running)
 
-## Exploring Thermal Properties of CoNiO at Varied Temperatures (300K - 500K)
+## Exploring Thermal Properties of Co₀.₂₅Ni₀.₇₅O at Varied Temperatures (300K - 500K)
 
 ### Constructing the Co₀.₂₅Ni₀.₇₅O Model
 
-Building on the [Thermal Conductivity work of MgNiO](../MgNiO), we use the Mg₀.₅Ni₀.₅O model to construct the Co₀.₂₅Ni₀.₇₅O model. In the MgNiO structure, there are 8000 atoms in total, consisting of 2000 Mg, 2000 Ni, and 4000 O. For the new CoNiO model, we aim to adjust the composition to 1000 Co, 3000 Ni, and 4000 O. To achieve this, we randomly select 1000 Mg atoms and transform them into Co atoms, ensuring that the overall ratio of Co:Ni:O remains 1:3:4. See [CoNiO Model Creation Folder](./model-creation/)
+Building on the [Thermal Conductivity work of Mg₀.₅Ni₀.₅O](../Mg₀.₅Ni₀.₅O), we use the Mg₀.₅Ni₀.₅O model to construct the Co₀.₂₅Ni₀.₇₅O model. In the Mg₀.₅Ni₀.₅O structure, there are 8000 atoms in total, consisting of 2000 Mg, 2000 Ni, and 4000 O. For the new Co₀.₂₅Ni₀.₇₅O model, we aim to adjust the composition to 1000 Co, 3000 Ni, and 4000 O. To achieve this, we randomly select 1000 Mg atoms and transform them into Co atoms, ensuring that the overall ratio of Co:Ni:O remains 1:3:4. See [Co₀.₂₅Ni₀.₇₅O Model Creation Folder](./model-creation/)
 
-However, due to structural differences between MgNiO and CoNiO, we anticipate that the optimized force parameters for MgNiO may not directly apply to CoNiO. Therefore, we will need to explore and optimize these parameters for each temperature range (300K - 500K) by conducting a new set of simulations. The details of our approach for optimizing force parameters across different temperatures can be found in the `Establishing a Best Fit Line for Optimized Forces Across Temperatures` section in the [MgNiO README file](https://github.com/huy310304/GPUMD-UVA/tree/main/MgNiO#establishing-a-best-fit-line-for-optimized-forces-across-temperatures).
+However, due to structural differences between Mg₀.₅Ni₀.₅O and Co₀.₂₅Ni₀.₇₅O, we anticipate that the optimized force parameters for Mg₀.₅Ni₀.₅O may not directly apply to Co₀.₂₅Ni₀.₇₅O. Therefore, we will need to explore and optimize these parameters for each temperature range (300K - 500K) by conducting a new set of simulations. The details of our approach for optimizing force parameters across different temperatures can be found in the `Establishing a Best Fit Line for Optimized Forces Across Temperatures` section in the [Mg₀.₅Ni₀.₅O README file](https://github.com/huy310304/GPUMD-UVA/tree/main/Mg₀.₅Ni₀.₅O#establishing-a-best-fit-line-for-optimized-forces-across-temperatures).
 
 ### Running NPT to Get the Relaxed Volume
 
-Since the CoNiO model is newly constructed rather than being derived from a trained model, it is necessary to first relax the system using an **NPT (constant number of particles, pressure, and temperature)** simulation. This allows the system to adjust its volume and achieve a stable, equilibrium state before further analysis.
+Since the Co₀.₂₅Ni₀.₇₅O model is newly constructed rather than being derived from a trained model, it is necessary to first relax the system using an **NPT (constant number of particles, pressure, and temperature)** simulation. This allows the system to adjust its volume and achieve a stable, equilibrium state before further analysis.
 
 The NPT run ensures the material reaches its natural volume under standard conditions (with pressure P set to 0) and adjusts its atomic arrangement to the conditions of the simulation. This step is critical for avoiding distortions in the structure, which could lead to inaccurate thermal conductivity results in subsequent simulations. Once the volume is relaxed, we can proceed with the **NVT (constant number of particles, volume, and temperature)** simulation for accurate thermal conductivity measurements.
 
@@ -81,15 +81,15 @@ We applied the same process at 500K to find the optimal force parameters. Below 
 
 The graph above demonstrates a consistent trend in thermal conductivity \( k(w) \) with smaller error bars, using optimized force parameters. As expected, thermal conductivity decreases as temperature \( T(K) \) increases, consistent with the traditional Umklapp scattering trend seen in crystalline materials. In such materials, thermal conductivity typically follows an inverse relationship with temperature, \( \propto 1/T \).
 
-When the thermal conductivity results across different temperatures were plotted together, a clear trend emerged. Similar to the behavior observed in MgNiO, increasing temperature generally results in a decrease in thermal conductivity. However, CoNiO exhibits a significant increase in thermal conductivity, suggesting that the thermal properties of CoNiO are more sensitive to temperature variations than MgNiO.
+When the thermal conductivity results across different temperatures were plotted together, a clear trend emerged. Similar to the behavior observed in Mg₀.₅Ni₀.₅O, increasing temperature generally results in a decrease in thermal conductivity. However, Co₀.₂₅Ni₀.₇₅O exhibits a significant increase in thermal conductivity, suggesting that the thermal properties of Co₀.₂₅Ni₀.₇₅O are more sensitive to temperature variations than Mg₀.₅Ni₀.₅O.
 
-| ![3D Plot](/CoNiO/images/kw_versus_T_3D_straight_view.png) | ![3D Plot](/CoNiO/images/kw_versus_T_3D_diag_view.png) |
+| ![3D Plot](/Co₀.₂₅Ni₀.₇₅O/images/kw_versus_T_3D_straight_view.png) | ![3D Plot](/Co₀.₂₅Ni₀.₇₅O/images/kw_versus_T_3D_diag_view.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 
 **3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
 
-### Conclusion for CoNiO 
+### Conclusion for Co₀.₂₅Ni₀.₇₅O 
 
-- The force parameters optimized for MgNiO were not directly applicable to CoNiO, as CoNiO was constructed by rearranging the MgNiO model rather than coming from a pre-trained model.
-- CoNiO demonstrates a decrease in thermal conductivity with increasing temperatures, following the traditional Umklapp scattering trend, similar to MgNiO.
-- CoNiO's thermal conductivity is significantly higher than that of MgNiO and J14 across the tested temperature range, suggesting that CoNiO experiences less scattering, making it more thermally conductive at elevated temperatures.
+- The force parameters optimized for Mg₀.₅Ni₀.₅O were not directly applicable to Co₀.₂₅Ni₀.₇₅O, as Co₀.₂₅Ni₀.₇₅O was constructed by rearranging the Mg₀.₅Ni₀.₅O model rather than coming from a pre-trained model.
+- Co₀.₂₅Ni₀.₇₅O demonstrates a decrease in thermal conductivity with increasing temperatures, following the traditional Umklapp scattering trend, similar to Mg₀.₅Ni₀.₅O.
+- Co₀.₂₅Ni₀.₇₅O's thermal conductivity is significantly higher than that of Mg₀.₅Ni₀.₅O and J14 across the tested temperature range, suggesting that Co₀.₂₅Ni₀.₇₅O experiences less scattering, making it more thermally conductive at elevated temperatures.

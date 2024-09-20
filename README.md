@@ -25,8 +25,8 @@ The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the gra
 
 ## Simulation Results and Discussions
 - ### [Mg₀.₅Ni₀.₅O Potential](./MgNiO/)
-- ### [(Mg₀.₂Co₀.₂Ni₀.₂Cu₀.₂Zn₀.₂)O - J14 Potential](./J14/)
 - ### [Co₀.₂₅Ni₀.₇₅O Potential](./CoNiO/)
+- ### [(Mg₀.₂Co₀.₂Ni₀.₂Cu₀.₂Zn₀.₂)O - J14 Potential](./J14/)
 
 ## References
 ### Documents and Tutorials
