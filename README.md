@@ -1,7 +1,5 @@
 # GPUMD-UVA (In-progress)
 
-## 📝 [A brief summarization poster](https://drive.google.com/file/d/1gUmejQSglso3Zh1EY1O8N_IgMgXjIA_r/view?usp=sharing)
-
 ### Research Focus
 The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the graduate student, focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
 
