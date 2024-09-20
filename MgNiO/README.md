@@ -1,15 +1,15 @@
-# Results and Discussion for thermal conductivity of MgNiO 
+₅O# Results and Discussion for thermal conductivity of Mg₀.₅Ni₀.₅O
 
-## [See Simulation Setup for MgNiO](./Running)
+## [See Simulation Setup for Mg₀.₅Ni₀.₅O](./Running)
 
 ## Table of Contents
-- [Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-mgnio)
+- [Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K](#phase-1-find-optimized-force-value-få-1-at-tk--300k-for-thermal-properties-of-Mg₀.₅Ni₀.₅O)
   - [Analysis of Small Force Values](#analysis-of-small-force-values)
   - [Analysis of Larger Force Values](#analysis-of-larger-force-values)
   - [Analysis of Even Larger Force Values](#analysis-of-even-larger-force-values)
   - [Analysis of Spectral Heat Current (SHC) with Varying External Forces](#analysis-of-spectral-heat-current-shc-kω-with-varying-external-forces)
   - [Conclusions](#conclusions)
-- [Phase 2: Exploring Thermal Properties of MgNiO at Varied Temperatures (100K - 900K)](#phase-2-exploring-thermal-properties-of-mgnio-at-varied-temperatures-100k---900k)
+- [Phase 2: Exploring Thermal Properties of Mg₀.₅Ni₀.₅O at Varied Temperatures (100K - 900K)](#phase-2-exploring-thermal-properties-of-Mg₀.₅Ni₀.₅O-at-varied-temperatures-100k---900k)
   - [Hypothesized Impact of Temperature on Thermal Conductivity](#hypothesized-impact-of-temperature-on-thermal-conductivity)
   - [Methodology for Multi-Temperature Analysis](#methodology-for-multi-temperature-analysis)
     - [Initial Findings Using a Uniform Force Value](#initial-findings-using-a-uniform-force-value)
@@ -24,7 +24,7 @@
   - [Temperature-Dependent Analysis](#temperature-dependent-analysis)
   - [Implications for Material Science](#implications-for-material-science)
     
-## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of MgNiO
+## Phase 1: Find Optimized Force Value F(Å-1) at T(K) = 300K for thermal properties of Mg₀.₅Ni₀.₅O
 - In this research, various simulations were conducted with over 10 force parameters with an `T(K) = 300K`, yielding a substantial number of output files. Utilizing Python, the data was graphed and the thermal conductivity was analyzed to identify the consistent range for `k(w)` across different force values. Each force value underwent 10 simulations, and the results were averaged to determine the corresponding `k(w)` value.
 
 - The primary objective was to ascertain the appropriate force parameters `F(Å-1)` that result in a consistent range of `k(w)` values while ensuring stability in the simulations.
@@ -54,7 +54,7 @@
 
 ### Analysis of Spectral Heat Current (SHC) `k(ω)` with Varying External Forces
 
-- The graph below illustrates how the spectral heat current (SHC), `k(ω)`, varies in response to different external force (F) values applied to our MgNiO alloy simulations. This visualization is crucial for identifying optimal F-values that balance the system's stability and response accuracy.
+- The graph below illustrates how the spectral heat current (SHC), `k(ω)`, varies in response to different external force (F) values applied to our Mg₀.₅Ni₀.₅O alloy simulations. This visualization is crucial for identifying optimal F-values that balance the system's stability and response accuracy.
 
 <p align="center">
   <img src="https://github.com/huy310304/GPUMD-UVA/assets/114793725/a7a929e8-7cc6-4ad3-9de3-e836c0865ee2" alt="Spectral Heat Current vs. F-values" width="800px">
@@ -69,9 +69,9 @@ The targeted range for F-values is between 0.000035 and 0.0003, with an ideal op
 
 <br><br>
 
-## Phase 2: Exploring Thermal Properties of MgNiO at Varied Temperatures (100K - 900K)
+## Phase 2: Exploring Thermal Properties of Mg₀.₅Ni₀.₅O at Varied Temperatures (100K - 900K)
 
-- After establishing that F(Å-1) = 0.00014 is the optimized force parameter at T(K) = 300K, we expanded the study to include a broader range of temperatures to understand how temperature impacts the thermal conductivity of MgNiO.
+- After establishing that F(Å-1) = 0.00014 is the optimized force parameter at T(K) = 300K, we expanded the study to include a broader range of temperatures to understand how temperature impacts the thermal conductivity of Mg₀.₅Ni₀.₅O.
 
 ### Hypothesized Impact of Temperature on Thermal Conductivity
 - As temperature increases, so does the amplitude of lattice vibrations within materials. This results in more frequent and intricate phonon scattering, which can significantly disrupt thermal energy transfer, typically reducing the material's thermal conductivity.
@@ -114,7 +114,7 @@ The targeted range for F-values is between 0.000035 and 0.0003, with an ideal op
 - These results confirmed the hypothesis that tailored force values enhance the consistency with `error bar < 2%` and reliability of the simulations, as well as the linearly relationship between the optimized force value and temperature.
 
 ### Comprehensive Analysis of Temperature vs. Thermal Conductivity
-- The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how MgNiO's thermal properties respond to temperature and force parameter adjustments. The graphs below demonstrates a more consistent trend in `k(w)` with smaller error bars using optimized F, maintaining the expected decreasing behavior as `T(K)` increases.
+- The optimized force values were utilized to re-evaluate the thermal conductivity at each temperature, providing insight into how Mg₀.₅Ni₀.₅O's thermal properties respond to temperature and force parameter adjustments. The graphs below demonstrates a more consistent trend in `k(w)` with smaller error bars using optimized F, maintaining the expected decreasing behavior as `T(K)` increases.
 
 <table align="center">
   <tr>
@@ -133,7 +133,7 @@ The targeted range for F-values is between 0.000035 and 0.0003, with an ideal op
 
 
 # Final Conclusion
-The comprehensive study on the thermal conductivity of MgNiO using non-equilibrium molecular dynamics simulations has provided valuable insights into the behavior of this material under varying external forces and temperatures. Through meticulous analysis and optimization, several key findings have emerged, shedding light on the complex relationship between force parameters, temperature, and thermal conductivity.  
+The comprehensive study on the thermal conductivity of Mg₀.₅Ni₀.₅O using non-equilibrium molecular dynamics simulations has provided valuable insights into the behavior of this material under varying external forces and temperatures. Through meticulous analysis and optimization, several key findings have emerged, shedding light on the complex relationship between force parameters, temperature, and thermal conductivity.  
 
 ## Optimization of Force Parameters
 The investigation began with the identification of optimized force values at a fixed temperature of 300K. By conducting numerous simulations across a range of force parameters, it was determined that force values between 0.000035 and 0.0003 Å⁻¹, with an ideal operational point near 0.00014 Å⁻¹, yielded the most consistent and reliable results. These optimized force parameters provided a balance between reducing fluctuations and enhancing the consistency of thermal conductivity predictions.  
@@ -142,6 +142,6 @@ The investigation began with the identification of optimized force values at a f
 Expanding the study to explore the impact of temperature on thermal conductivity revealed intriguing insights. Despite initially assuming a uniform force value, the analysis uncovered temperature-specific optimizations. By simulating temperatures ranging from 100K to 900K, it became evident that each temperature required tailored force values to achieve reliable data. The linear relationship observed between optimized force values and temperature provided a strategic guide for setting force parameters across a wide temperature range.  
 
 ## Implications for Material Science
-The detailed visualization and analysis presented in this study underscore the critical role of optimizing force parameters in computational material science. By accurately predicting and understanding the thermal conductivity of materials like MgNiO, researchers can make informed decisions in designing and engineering materials for various applications. These findings not only contribute to advancing our understanding of high-entropy alloys but also provide a framework for future research in simulating complex materials and predicting their thermal properties.  
+The detailed visualization and analysis presented in this study underscore the critical role of optimizing force parameters in computational material science. By accurately predicting and understanding the thermal conductivity of materials like Mg₀.₅Ni₀.₅O, researchers can make informed decisions in designing and engineering materials for various applications. These findings not only contribute to advancing our understanding of high-entropy alloys but also provide a framework for future research in simulating complex materials and predicting their thermal properties.  
  
-#### In conclusion, the findings from this study offer precise insights into selecting force parameters for reliable thermal conductivity predictions in MgNiO and pave the way for further exploration in different high-entropy alloys and beyond.
+#### In conclusion, the findings from this study offer precise insights into selecting force parameters for reliable thermal conductivity predictions in Mg₀.₅Ni₀.₅O and pave the way for further exploration in different high-entropy alloys and beyond.
