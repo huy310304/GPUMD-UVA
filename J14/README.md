@@ -55,9 +55,14 @@ The results of the thermal conductivity across different temperatures were plott
 - The J14 demonstrates more consistent thermal conductivity across different temperatures compared to the decreasing trend observed in Mg₀.₅Ni₀.₅O and Co₀.₂₅Ni₀.₇₅O.
 - The thermal conductivity of the J14 is lower than that of Mg₀.₅Ni₀.₅O and Co₀.₂₅Ni₀.₇₅O across the tested temperature range.
 - These findings suggest that the J14 might be more suitable for applications where stable thermal performance is required across a wide temperature range.
-- Materials like Cu₀.₂Ni₀.₈O, Zn₀.₄Mg₀.₆O, and Co₀.₂₅Ni₀.₇₅O exhibit a more traditional Umklapp scattering trend. This trend is typical of crystalline materials, where thermal conductivity decreases with increasing temperature (∝ 1/T).
+- Materials like Mg₀.₅Ni₀.₅O and Co₀.₂₅Ni₀.₇₅O exhibit a more traditional Umklapp scattering trend. This trend is typical of crystalline materials, where thermal conductivity decreases with increasing temperature (∝ 1/T).
 - These crystalline oxides also show higher thermal conductivities than J14, reflecting the less disordered crystal structure that allows for more efficient phonon transport (less scattering).
 
 ## Phase 2: Tuning the Thermal Conductivity of the J14
 
-In the next phase, we will explore how to tune the thermal conductivity of the J14 by adjusting the concentrations of its components. Specifically, we will investigate whether lowering the concentrations of Cu and Mg to 15% can increase the thermal conductivity, and whether increasing their concentrations to 25% can decrease the thermal conductivity. These experiments will be conducted at 500K as an illustrative example.
+In the next phase, we will explore how to tune the thermal conductivity of the J14 by adjusting the concentrations of its components. Specifically, we will investigate the effects of lowering the concentration of Ni to 0.1 and increasing Zn to 0.3, as well as the reverse scenario of increasing Ni to 0.3 and reducing Zn to 0.1.
+
+Since Zn has the largest atomic radius among the five elements in J14, increasing its concentration to 0.3 is expected to introduce more lattice distortion and phonon scattering due to size mismatch. This, in turn, should reduce the thermal conductivity (TC). On the other hand, increasing the Ni concentration to 0.3 and lowering Zn to 0.1 will likely result in less lattice distortion and scattering, leading to a potential increase in thermal conductivity.
+
+These experiments will be conducted at 300K as an illustrative example to assess how these concentration changes impact the thermal properties of J14.
+
