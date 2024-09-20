@@ -21,6 +21,11 @@ We can plot the pressure from the `thermo.out` file to compare the system before
 | **Pressure without relaxation** | **Pressure after relaxation** |
 
 ### Short Runs (1M steps) at 300K
+
+We conducted short runs (1M steps) at 300K to quickly evaluate the effect of different force parameters on the thermal conductivity of Co₀.₂₅Ni₀.₇₅O. These shorter runs allowed us to explore force parameters and identify ranges that consistently stabilize thermal conductivity measurements. Once identified, these parameters can be further validated through longer simulations.
+
+The plots below display the results for three different force parameters:
+
 | ![TC 300K 1e-4 Short](./images/1e-4_Short_300K.png) | ![TC 300K 1e-4 Data](./images/1e-4_Short_300K_data.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.0001`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.0001`** |
@@ -33,14 +38,12 @@ We can plot the pressure from the `thermo.out` file to compare the system before
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
 
-These short runs (1M steps) are intended to minimize simulation time while exploring force parameters for consistent behavior. Once we identify consistent force parameters, we can extend the simulations to 10M steps for more accurate results.
-
-These force parameters are likely correct, as the results exhibit a high level of consistency across multiple runs, with minimal variation between individual runs. This consistency, indicated by the low error bars, suggests that the optimized force parameters effectively stabilize the thermal conductivity measurements for Co₀.₂₅Ni₀.₇₅O at 300K.
+The force parameters tested (0.0001 Å⁻¹, 0.00011 Å⁻¹, and 0.00012 Å⁻¹) produced consistent results across all short runs, showing minimal variation in thermal conductivity measurements. The low error bars indicate high repeatability and suggest that the optimized force parameters are stabilizing the system. Given the close agreement between the different runs, these force parameters are promising candidates for further exploration.
 
 
 ### Long Runs (10M steps) at 300K
 
-After getting a sense of what the force parameter should be using small runs, we can continue doing longer runs with 10M steps to further see the correct and detailed behavior.
+After identifying likely force parameters through short runs, we extended the simulation time to 10M steps to achieve more accurate and detailed results. Below are the results for force parameters ranging from 0.00008 Å⁻¹ to 0.00011 Å⁻¹:
 
 | ![TC 300K 8e-5 Long](./images/8e-5_Long_300K.png) | ![TC 300K 8e-5 Data](./images/8e-5_Long_300K_data.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
@@ -58,11 +61,33 @@ After getting a sense of what the force parameter should be using small runs, we
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
 | **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00011`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00011`** |
 
-| ![TC 300K 1.2e-4 Long](./images/1.2e-4_Long_300K.png) | ![TC 300K 1.2e-4 Data](./images/1.2e-4_Long_300K_data.png) |
+These extended simulations confirm the findings from the short runs, with force parameters in the range of 0.00008 Å⁻¹ to 0.00011 Å⁻¹ yielding stable results. The optimal value for force parameters appears to be around 0.00008 Å⁻¹, as this produced the most consistent results with the least error.
+
+### Long Runs (10M steps) at 500K
+
+We applied the same process at 500K to find the optimal force parameters. Below are the results for the force parameter of 0.00015 Å⁻¹:
+
+| ![TC 500K 1.5e-4 Long](./images/1.5e-4_Long_500K.png) | ![TC 500K 1.5e-4 Data](./images/1.5e-4_Long_500K_data.png) |
 |:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| **Spectral Thermal Conductivity of 5 runs at `300K with F(Å⁻¹) = 0.00012`** | **Thermal Conductivity at `300K with F(Å⁻¹) = 0.00012`** |
+| **Spectral Thermal Conductivity of 5 runs at `500K with F(Å⁻¹) = 0.00015`** | **Thermal Conductivity at `500K with F(Å⁻¹) = 0.00015`** |
 
-The optimal force parameter range for studying the thermal conductivity of Co₀.₂₅Ni₀.₇₅O at 300K is likely between 0.00008 Å⁻¹ and 0.00012 Å⁻¹, where we see both stable thermal conductivity values and efficient simulation behavior.
+## Comprehensive Analysis of Temperature vs. Thermal Conductivity
 
-For further use, we will use 0.00008 Å⁻¹ for reference as this demonstrate the least error and most consistency over the runs. 
+<p align="center">
+  <img src="/CoNiO/images/kw_versus_T.png" alt="Line of Best Fit for Optimized Forces" width="800px">
+</p>
 
+The graph above demonstrates a consistent trend in thermal conductivity \( k(w) \) with smaller error bars, using optimized force parameters. As expected, thermal conductivity decreases as temperature \( T(K) \) increases, consistent with the traditional Umklapp scattering trend seen in crystalline materials. In such materials, thermal conductivity typically follows an inverse relationship with temperature, \( \propto 1/T \).
+
+When the thermal conductivity results across different temperatures were plotted together, a clear trend emerged. Similar to the behavior observed in MgNiO, increasing temperature generally results in a decrease in thermal conductivity. However, CoNiO exhibits a significant increase in thermal conductivity, suggesting that the thermal properties of CoNiO are more sensitive to temperature variations than MgNiO.
+
+| ![3D Plot](/CoNiO/images/kw_versus_T_3D_straight_view.png) | ![3D Plot](/CoNiO/images/kw_versus_T_3D_diag_view.png) |
+|:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
+
+**3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
+
+### Conclusion for CoNiO 
+
+- The force parameters optimized for MgNiO were not directly applicable to CoNiO, as CoNiO was constructed by rearranging the MgNiO model rather than coming from a pre-trained model.
+- CoNiO demonstrates a decrease in thermal conductivity with increasing temperatures, following the traditional Umklapp scattering trend, similar to MgNiO.
+- CoNiO's thermal conductivity is significantly higher than that of MgNiO and J14 across the tested temperature range, suggesting that CoNiO experiences less scattering, making it more thermally conductive at elevated temperatures.
