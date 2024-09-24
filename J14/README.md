@@ -92,11 +92,6 @@ The thermal conductivity of the original J14 model (800 Ni and 800 Zn) is approx
 
 The following graphs visually represent the thermal conductivity results and the percentage differences between the models:
 
-<div style="text-align: center;">
-  <img src="./images/TC_comparison.png" alt="TC comparison" width="45%" style="display: inline-block;"/>
-  <img src="./images/percentage_diff.png" alt="Percentage Difference" width="45%" style="display: inline-block;"/>
-</div>
-
 | ![TC comparison](./images/TC_comparison.png) | ![Percentage Diff](./images/percentage_diff.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 
