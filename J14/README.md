@@ -73,11 +73,6 @@ Following the same process of finding the optimized force for Temp = 300K, F(Å�
 
 ### Thermal Conductivity Results
 
-#### (Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁)O (1200 Ni and 400 Zn)
-The thermal conductivity of (Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁)O (1200 Ni and 400 Zn) is around **2.655 ± 0.045 W/mK**.
-
-![Ni0.3Zn0.1 TC](./images/Ni_0.3_Zn_0.1_TC.png)
-
 #### (Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃)O (400 Ni and 1200 Zn)
 The thermal conductivity of (Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃)O (400 Ni and 1200 Zn) is around **2.580 ± 0.045 W/mK**.
 
@@ -87,6 +82,11 @@ The thermal conductivity of (Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃)O (40
 The thermal conductivity of the original J14 model (800 Ni and 800 Zn) is approximately **2.634 ± 0.055 W/mK**.
 
 ![J14 TC](./images/J14_TC.png)
+
+#### (Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁)O (1200 Ni and 400 Zn)
+The thermal conductivity of (Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁)O (1200 Ni and 400 Zn) is around **2.655 ± 0.045 W/mK**.
+
+![Ni0.3Zn0.1 TC](./images/Ni_0.3_Zn_0.1_TC.png)
 
 ### Graphical Analysis
 
