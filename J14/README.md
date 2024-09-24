@@ -103,7 +103,7 @@ The following graphs visually represent the thermal conductivity results and the
 - **Percentage Difference in Thermal Conductivity Relative to J14 Model (Ordered: Ni₀.₁ - J14 - Ni₀.₃)**:
     - The second graph highlights how the thermal conductivity changes relative to the J14 model. Increasing Zn leads to a ~2.05% decrease in thermal conductivity, while increasing Ni leads to a ~0.8% increase. This indicates that Zn’s larger atomic size, contributing to more lattice distortion, has a more significant impact on reducing thermal conductivity compared to the influence of Ni.
 
-### Conclusions
+### Conclusion for Phase 2
 
 Our study reveals that adjusting the concentrations of Ni and Zn in the J14 model significantly impacts its thermal conductivity:
 
