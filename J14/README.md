@@ -92,10 +92,11 @@ The thermal conductivity of the original J14 model (800 Ni and 800 Zn) is approx
 
 The following graphs visually represent the thermal conductivity results and the percentage differences between the models:
 
-<p float="left">
-  <img src="./images/TC_comparison.png" alt="TC comparison" width="45%" />
-  <img src="./images/Percentage_Difference.png" alt="Percentage Difference" width="45%" />
-</p>
+<div style="text-align: center;">
+  <img src="./images/TC_comparison.png" alt="TC comparison" width="45%" style="display: inline-block;"/>
+  <img src="./images/percentage_diff.png" alt="Percentage Difference" width="45%" style="display: inline-block;"/>
+</div>
+
 
 - **Thermal Conductivity of Various Models (Ordered: Ni₀.₁ - J14 - Ni₀.₃)**:
     - As seen in the graph, increasing Ni concentration to 0.3 and reducing Zn to 0.1 increases the thermal conductivity to 2.655 W/mK. Conversely, lowering Ni to 0.1 and increasing Zn to 0.3 reduces the thermal conductivity to 2.580 W/mK. 
@@ -115,4 +116,3 @@ Our study reveals that adjusting the concentrations of Ni and Zn in the J14 mode
 3. The **J14 model (Ni₀.₂, Zn₀.₂)** demonstrates an intermediate thermal conductivity (2.634 W/mK), consistent with a balanced atomic composition.
 
 These findings suggest that manipulating the concentrations of Ni and Zn in materials like J14 offers a pathway to tune thermal conductivity, which could be valuable in applications where controlling heat transfer is critical. Future work may involve investigating other temperatures or force constants to better understand the underlying mechanisms.
-
