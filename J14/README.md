@@ -97,7 +97,7 @@ The following graphs visually represent the thermal conductivity results and the
 
 [TC comparison](./images/TC_comparison.png)
 
-[![Percentage Diff](./images/Percentage_Difference.png)]
+[Percentage Diff](./images/Percentage_Difference.png)]
 
 - **Thermal Conductivity of Various Models (Ordered: Ni₀.₁ - J14 - Ni₀.₃)**:
     - As seen in the graph, increasing Ni concentration to 0.3 and reducing Zn to 0.1 increases the thermal conductivity to 2.655 W/mK. Conversely, lowering Ni to 0.1 and increasing Zn to 0.3 reduces the thermal conductivity to 2.580 W/mK. 
