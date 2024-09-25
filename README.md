@@ -3,9 +3,11 @@
 ### Research Focus
 The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the graduate student, focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations.
 
-### Recent Work and Updates (Summer 2024)
+### Recent Work and Updates (Fall 2024)
+- **NEP Training**: Conducting model generation by training a NEP potential model with extensive hyperparameter tuning to minimize energy and force loss results. The goal is to train a baseline model for HEO, then apply the same training process for CO2 and H2O data to get their model for molecular dynamics simulations.
 - **Molecular Dynamics Simulations**: Focused on running MD simulations for **Co₀.₂₅Ni₀.₇₅O** and **(Mg₀.₂Co₀.₂Ni₀.₂Cu₀.₂Zn₀.₂)O** alloys using the **J14 potential** to investigate their thermal properties.
 - **Composition Tuning**: Adjusted the atomic concentrations of Ni and Zn elements within the J14 potential to explore how thermal conductivity can be controlled. This involved studying the effects of varying concentrations on lattice distortion and analyzing the correlation between structural disorder and thermal conductivity.
+
 
 ### Tools and Methods
 - Utilized the **GPUMD** package, Python, MATLAB, and Linux commands for simulation tasks.
