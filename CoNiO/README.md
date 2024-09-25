@@ -83,10 +83,8 @@ The graph above demonstrates a consistent trend in thermal conductivity \( k(w) 
 
 When the thermal conductivity results across different temperatures were plotted together, a clear trend emerged. Similar to the behavior observed in Mg₀.₅Ni₀.₅O, increasing temperature generally results in a decrease in thermal conductivity. However, Co₀.₂₅Ni₀.₇₅O exhibits a significant increase in thermal conductivity, suggesting that the thermal properties of Co₀.₂₅Ni₀.₇₅O are more sensitive to temperature variations than Mg₀.₅Ni₀.₅O.
 
-| ![3D Plot](/CoNiO/images/kw_versus_T_3D_straight_view.png) | ![3D Plot](/CoNiO/images/kw_versus_T_3D_diag_view.png) |
+| ![3D Plot](./images/kw_versus_T_3D_straight_view.png) | ![3D Plot](./images/kw_versus_T_3D_diag_view.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
-
-![alt text](image.png)
 
 **3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
 
