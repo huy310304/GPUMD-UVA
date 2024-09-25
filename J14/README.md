@@ -69,9 +69,17 @@ These experiments will be conducted at 300K as an illustrative example to assess
 ### Model Creation
 We use original J14 model to construct the (Mg 0.2 Co 0.2 Ni 0.3 Cu 0.2 Zn 0.1)O model. In the J14 structure, there are 8000 atoms in total, consisting of 800 Mg, 800 Co, 800 Ni, 800 Cu, 800 Zn, and 4000 O. For the two new models, we aim to adjust the composition to 800 Mg, 800 Co, 1200 Ni, 800 Cu, 400 Zn, and 4000 O for the Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁O and 800 Mg, 800 Co, 400 Ni, 800 Cu, 1200 Zn, and 4000 O for the Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃O To achieve this, we randomly select 400 Zn atoms and transform them into Ni atoms and vice versa. See [J14 Model Tuning Creation Folder](./Tuning/)
 
-Following the same process of finding the optimized force for Temp = 300K, F(Å⁻¹) = 0.0004 was decided as the final force to run the 3 models (J14, Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁O (1200 Ni and 400 Zn), and Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃O (400 Ni and 1200 Zn)) to ensure consistency and further analyze the distortion/changing in thermal conductivity.
+Since the Tuning J14 model is newly constructed rather than being derived from a trained model, it is necessary to first relax the system using an **NPT (constant number of particles, pressure, and temperature)** simulation. This allows the system to adjust its volume and achieve a stable, equilibrium state before further analysis.
+
+![Volume Diff](./images/Volume_Diff.png)
+
+As we decrease the Ni content (and increase Zn content), the volume increases, which is reflected in the model with 400 Ni and 1200 Zn having the highest volume. This is expected since Zn atoms are larger than Ni atoms, and replacing Ni with Zn would lead to an increase in the overall equilibrium box size. The values of Lx, Ly, and Lz does not stay the same after relaxed, suggesting the some asymmetry in the equilibrium box.
+
+The atomic substitutions of Ni and Zn cause structural changes that are reflected in the equilibrium volume and dimensional stability, which, in turn, may influence other properties like thermal conductivity.
 
 ### Thermal Conductivity Results
+
+Following the same process of finding the optimized force for Temp = 300K, F(Å⁻¹) = 0.0004 was decided as the final force to run the 3 models (J14, Mg₀.₂Co₀.₂Ni₀.₃Cu₀.₂Zn₀.₁O (1200 Ni and 400 Zn), and Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃O (400 Ni and 1200 Zn)) to ensure consistency and further analyze the distortion/changing in thermal conductivity.
 
 #### (Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃)O (400 Ni and 1200 Zn)
 The thermal conductivity of (Mg₀.₂Co₀.₂Ni₀.₁Cu₀.₂Zn₀.₃)O (400 Ni and 1200 Zn) is around **2.580 ± 0.045 W/mK**.
