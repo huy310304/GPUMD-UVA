@@ -86,6 +86,8 @@ When the thermal conductivity results across different temperatures were plotted
 | ![3D Plot](/CoNiO/images/kw_versus_T_3D_straight_view.png) | ![3D Plot](/CoNiO/images/kw_versus_T_3D_diag_view.png) |
 |:---------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|
 
+![alt text](image.png)
+
 **3D Plot of Average Spectral Thermal Conductivity Across Temperatures Using Optimized Force Parameters**
 
 ### Conclusion for Co₀.₂₅Ni₀.₇₅O 
