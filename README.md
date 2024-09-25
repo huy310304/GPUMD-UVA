@@ -25,7 +25,7 @@ The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the gra
 - ### [Mg₀.₅Ni₀.₅O Potential](./MgNiO/)
 - ### [Co₀.₂₅Ni₀.₇₅O Potential](./CoNiO/)
 - ### [(Mg₀.₂Co₀.₂Ni₀.₂Cu₀.₂Zn₀.₂)O - J14 Potential and Tuning](./J14/)
-- ### [Data Collection and Analysis Slides - Uncleaned Version](./slides/Full%20Report%20Slides%20-%20Lazy%20Version.pptx)
+- ### [Data Collection and Analysis Slides - Uncleaned Version](./slides)
 
 ## References
 ### Documents and Tutorials
