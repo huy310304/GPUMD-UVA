@@ -1,6 +1,6 @@
 # Results and Discussion for Thermal Conductivity of Co₀.₂₅Ni₀.₇₅O
 
-## [See Simulation Setup for Mg₀.₅Ni₀.₅O](./Running)
+## [See Simulation Setup for Co₀.₂₅Ni₀.₇₅O](./Running)
 
 ## Exploring Thermal Properties of Co₀.₂₅Ni₀.₇₅O at Varied Temperatures (300K - 500K)
 
