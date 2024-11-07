@@ -1,6 +1,6 @@
 # GPUMD-UVA (In-progress)
 
-## 📝 [JAP Paper](https://doi.org/10.1063/5.0224282)
+## 📝 [Journal of Applied Physics - Neuroevolution machine learning potential to study high temperature deformation of entropy-stabilized oxide MgNiCoCuZnO5 Paper](https://doi.org/10.1063/5.0224282)
 
 ### Research Focus
 The project, led by Professor Keivan Esfarjani, with Bikash Timalsina as the graduate student, focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations on UVA Afton High-Performance Computing system.
